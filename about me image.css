@@ -1,0 +1,10 @@
+.imageflex { display: flex; }
+
+.imageflexcontent {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+.text {
+    padding-left: 20px;
+}

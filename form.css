@@ -1,0 +1,97 @@
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 2;
+    min-width: 400px;
+    font-family: Montserrat, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+.content-table thead tr {
+    background-color: rgb(252, 145, 22);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    text-shadow: none; /* Remove text shadow for table headers and cells */
+}
+
+.content-table td {
+    color: #000000; 
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(252, 145, 22);
+}
+
+.content-table tbody tr:hover td:hover {
+    color: rgb(252, 145, 22);
+    transition: 0.4s ease-in-out;
+}
+
+input[type="radio"],
+label {
+    display: inline-block;
+}
+
+.input-box {
+    width: 300px; /* Adjust the width as needed */
+    padding: 5px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.textarea {
+    width: 400px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    padding: 8px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    margin: 15  px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 60px;    
+}
+
+.button {
+    transition: transform 1s;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: rgb(252, 145, 22);
+}
